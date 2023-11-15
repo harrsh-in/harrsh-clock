@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 const Home = () => {
   const calculateTimeLeft = (): TimeLeft => {
     let year = new Date().getFullYear();
-    const difference = +new Date(`${year}-12-11`) - +new Date();
+    const difference = +new Date(`2024-02-17`) - +new Date();
 
     let timeLeft: TimeLeft = {};
 
